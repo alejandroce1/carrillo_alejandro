@@ -1,0 +1,23 @@
+ <html>
+<head>
+<style type ="text/css">
+	body{background-color:#8F2001;} 
+	 
+	 
+	p::first-line { color: #ff0000;
+    font-variant: small-caps;}
+	
+	p:first-letter{color:yellow ;}
+ 
+
+
+</style>
+</head>
+<body>
+<table>
+<td>
+
+</table> 
+<p>hola como estan </p>
+</body>
+</html>
