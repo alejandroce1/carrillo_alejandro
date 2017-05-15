@@ -1,0 +1,42 @@
+body{
+	text-align:center;
+}
+#box {
+	font-family:impact;
+	font-size:50px;
+	padding:1px 15px;
+	font-weight:normal;
+	font-style: italic;
+	display:block;
+	width: 300px;
+	margin: 40px;auto;
+	color: black;
+	 
+	text-align:center-left;
+	border:3px solid ;
+	 
+	background:#d40000;
+ 
+	-webkit-border-radius: 40px 20px 50px 20px;
+	text-shadow:rgb(40,40,50)1px 1px 1px;
+ }	
+ 
+ #box2 {
+	font-family:impact;
+	font-size:50px;
+	padding:1px 15px;
+	font-weight:normal;
+	font-style: italic;
+	display:block;
+	width: 700px;
+	margin: 40px;auto;
+	color: black;
+	 
+	text-align:center-left;
+	border:3px solid ;
+	 
+	background:#d40000;
+ 
+	-webkit-border-radius: 40px 20px 50px 20px;
+	text-shadow:rgb(40,40,50)1px 1px 1px;
+ }	

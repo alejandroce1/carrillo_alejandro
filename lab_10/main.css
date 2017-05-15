@@ -17,7 +17,7 @@
 		  display: -webkit-box;
 		  -webkit-box-pack:center;
 		 
-   #bigWrapper {
+   #bigWrapper{
 		border:10px solid green;
 		max-width:1000px;
 		margin:20px;
@@ -43,9 +43,25 @@
 		front:bold 14px tahoma;
 	}
 	#flexDiv{
-		display: - webkit-box;
-		-webkit-box-orient:horizontal;
+		/*display: - webkit-box;*/
+		/*-webkit-box-orient: horizontal;*/
 	}
 	
 	#mainSection {
 		border:1px solid blue;
+		-webkit-box-flex: 1;
+		margin:20px;
+		padding:20px;
+	}
+	#sideNews{
+		border: 1px solid red;
+		width:220px;
+	margin:20px 0px;
+	padding:30px;
+	background:purple;
+	}
+	#pageFooter{
+		text-alighn: center; 
+		padding: 20px;
+		border-top:2px solid green;
+	}
