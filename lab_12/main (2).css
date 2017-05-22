@@ -1,0 +1,81 @@
+*{ 
+	margin:0px;
+	padding:0px;
+	 
+	}
+
+h1{
+		front:bold 20px Italics;
+}
+h2{
+	front:bold 14px Tahoma;
+
+}
+	
+h3{
+	background-color:tan;
+}
+header,section, footer, aside, nav, articule, hgroup{
+		display:block;
+		background-color:grey;
+}
+body{
+		  width:100%;
+		  display: -webkit-box;
+		  -webkit-box-pack:center;
+		 
+}		 
+#bigWrapper{
+		border:10px solid black;
+		max-width:1000px;
+		margin:20px;
+		display:-webkit-box;
+		-webkit-box-orient:vertical;
+		-webkit-box-flex:1;
+		background-color:grey;
+	}
+   
+#topHeader{
+	   background-color:grey;
+	   border:3px solid black;
+	   padding:20px;S
+}	   
+#topMenu {
+		border-bottom-color:red;
+		background:red;
+		color:white;
+}
+#topMenu li{
+		display:inline-block;
+		list-style: none;
+		padding: 5px;
+		font:bold 14px tahoma;
+		
+}
+#flexDiv{
+		/*display: - webkit-box;*/
+		/*-webkit-box-orient: horizontal;*/
+}
+	
+#mainSection {
+		border:1px solid black;
+		-webkit-box-flex: 1;
+		margin:20px;
+		padding:20px;
+}
+#sideNews{
+	border: 3px solid orange;
+	width:220px;
+	margin:20px 0px;
+	padding:30px;
+	background:tan;
+	}
+#pageFooter{
+		text-align: center; 
+		padding: 20px;
+		border-top:2px solid brown;
+		background-color:tan;
+}
+footer{
+ 
+}
