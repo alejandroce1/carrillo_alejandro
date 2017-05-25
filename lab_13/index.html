@@ -2,15 +2,21 @@
 <head>
 </head>
 <body>
-<script type ="text/javascript">
-	//writting a comment here
-	/*Write a comment here 
-	pena es mi pastor
-	*/
-	
-		document.write("Hello World!<br/>");
-		document.write("hello world")
-		 tercer video
-	</script>
-	</body>
+ <form>
+ height:<input type = "text" size = 10 id maxLenght = 10 id = "height" value ="Enter height"/>
+ <br/>
+ <br/>
+ width: <input type = "text" size = 10 maxLength = 10 id = "width" value ="Enter width"/>  
+<br/>
+<br/>
+<input type = "button" value = "Calculate" onclick ="calcPerim()"/>
+
+	<script type = "text/javascript">
+	function calcPerim() {
+	var h = document.getElementById("height").value;
+	var w = document.getElementById("width").value;
+	document.write("Your perimeter is..."+(2*h+2*w));
+}	
+</script>
+</body>
 </html>
