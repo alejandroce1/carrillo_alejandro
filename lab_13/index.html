@@ -3,20 +3,21 @@
 </head>
 <body>
  <form>
- height:<input type = "text" size = 10 id maxLenght = 10 id = "height" value ="Enter height"/>
+ Weight:<input type = "text" size = 20 maxLenght = 20 id = "weight" value ="Enter Weight lb"/>
  <br/>
  <br/>
- width: <input type = "text" size = 10 maxLength = 10 id = "width" value ="Enter width"/>  
-<br/>
-<br/>
-<input type = "button" value = "Calculate" onclick ="calcPerim()"/>
-
-	<script type = "text/javascript">
-	function calcPerim() {
-	var h = document.getElementById("height").value;
-	var w = document.getElementById("width").value;
-	document.write("Your perimeter is..."+(2*h+2*w));
-}	
-</script>
+ Height:<input type = "text" size = 20 maxLength = 20 id = "height" value ="Enter Height in inch"/>
+ <br/>
+ <br/>
+ <input type = "button" value = "Calculate" onclick = "calPerim()"/>
+ </form>
+ 
+<script type = "text/javascript">
+	function calPerim() {
+	var w = document.getElementById("weight").value;
+	var h = document.getElementById("Height").value;
+	document.write("your BMI is ..." +((w"703)/(h*h))));
+	}
+	</script>
 </body>
 </html>
