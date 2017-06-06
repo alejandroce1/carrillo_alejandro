@@ -1,0 +1,37 @@
+<html lang= "en">
+<head>
+	<meta charset="UTF-8">
+	 </head>
+<body>	
+	<form name ="input">
+	 User Name: <input type = "text" name = "username"/><br/><br/>
+	 Password: <input type = "password" name = "password"/><br/><br/>
+	 <input type = "submit" value = "Submit!" onClick ="getValue()"/>
+	 </form>
+	 <script type = "text/javascript">
+	 function getValue()
+	{
+		var x = document.forms.input.username.value;
+		var Y = x.indexOf("@");
+		var z =x.lastIndexOf(".");
+		var a = document.forms.input.password.value;
+ 
+if	((y < 1 || z < y + 2 || z + 2 > x .lenght)&& a.lenght <6 )
+	alert("we were unable to process your request.Please correct the following errors..."
+	+ "you did nt provide a valid email adress" + "Your password not meet the minium requirements");
+
+else
+{
+if y < 1 || z < y + 2 || z + 2 > x .lenght)
+ alert("Error. Put a valid email adress");
+
+ else if (a.lenght< 6)
+ 
+		alert("Error. Put the minium requirements for password which is 6");
+
+else alert("success");		
+		
+		}
+</script>
+</body>	 
+</html>
